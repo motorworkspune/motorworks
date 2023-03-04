@@ -120,26 +120,22 @@
         }
     }
 
-    switch (true) {
-        case window.location.pathname.includes('index.html'):
+    if(window.location.pathname.includes('index.html')){
             $('#contacts').removeClass('active');
             $('#about').removeClass('active');
             $('#service').removeClass('active');
             $('#index').addClass('active');
-            break;
-        case window.location.pathname.includes('service.html'):
+    } else if(window.location.pathname.includes('service.html')){
             $('#contacts').removeClass('active');
             $('#index').removeClass('active');
             $('#about').removeClass('active');
             $('#service').addClass('active');
-            break;
-        case window.location.pathname.includes('about.html'):
+    }else if(window.location.pathname.includes('about.html')){
             $('#contacts').removeClass('active');
             $('#index').removeClass('active');
             $('#service').removeClass('active');
             $('#about').addClass('active');
-            break;
-        default:
+    }else{
             $('#index').removeClass('active');
             $('#about').removeClass('active');
             $('#service').removeClass('active');
