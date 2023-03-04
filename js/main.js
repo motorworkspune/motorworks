@@ -139,7 +139,7 @@
             $('#service').removeClass('active');
             $('#about').addClass('active');
             break;
-        case window.location.pathname.includes('contacts.html'):
+        default:
             $('#index').removeClass('active');
             $('#about').removeClass('active');
             $('#service').removeClass('active');
