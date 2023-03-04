@@ -140,7 +140,6 @@
             $('#about').removeClass('active');
             $('#service').removeClass('active');
             $('#contacts').addClass('active');
-            break;
     }
 
 })(jQuery);
