@@ -120,8 +120,8 @@
         }
     }
 
-   setTimeout(() => {
-        if(window.location.pathname.includes('index.html')){
+
+     if(window.location.pathname.includes('index.html')){
             $('#contacts').removeClass('active');
             $('#about').removeClass('active');
             $('#service').removeClass('active');
@@ -137,12 +137,14 @@
             $('#service').removeClass('active');
             $('#about').addClass('active');
     }else{
+           setTimeout(() => {
             $('#index').removeClass('active');
             $('#about').removeClass('active');
             $('#service').removeClass('active');
             $('#contacts').addClass('active');
+           }, 2000)
     }
-   }, 1000)
+
 
 })(jQuery);
 
