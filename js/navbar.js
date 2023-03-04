@@ -69,7 +69,7 @@ document.getElementById("navbar-motorworks").innerHTML =
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" id="index" class="nav-item nav-link">Home</a>
+                <a href="index.html" id="index" class="nav-item nav-link active">Home</a>
                 <a href="service.html" id="service" class="nav-item nav-link">Our Services</a>
                 <a href="about.html" id="about" class="nav-item nav-link">About Us</a>
                 <a href="contacts.html" id="contacts" class="nav-item nav-link">Contact Us</a>
