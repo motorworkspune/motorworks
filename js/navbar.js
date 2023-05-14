@@ -4,7 +4,7 @@ document.getElementById("navbar-motorworks").innerHTML =
     <div id="motorWorksSpinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="motorWorksSpinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Motor Works</span>
+            <span class="sr-only">The Motor Works</span>
         </div>
     </div>
     <!-- motorWorksSpinner End Motor Works -->
