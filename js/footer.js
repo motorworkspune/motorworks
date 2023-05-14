@@ -5,7 +5,11 @@ document.getElementById("footer-motorworks").innerHTML =
     <div class="row g-5">
         <div class="col-lg-6 col-md-12">
             <h4 class="text-light mb-4">Contact Us</h4>
-            <p class="mb-2"><a href="https://goo.gl/maps/3yNKWD2SFm7wboXC7"><i class="fa fa-map-marker-alt me-3"></i>Motor Works, New Airport Rd, next to Royal Enfield, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014, India</a></p>
+            <p class="mb-2">Wakad: </p>
+            <p class="mb-2"><a href="https://maps.app.goo.gl/S1WEk2tdeSYQxGMa8"><i class="fa fa-map-marker-alt me-3"></i>Sr No 164/1/1, opposite hinjewadi police station, Bhujbal Vasti, Wakad, Pune, Maharashtra - 411027</a></p>
+            <p class="mb-2"><a href="tel:+91-8087020003"><i class="fa fa-phone-alt me-3"></i>+91-8087020003</a></p>
+            <p class="mb-2">Viman nagar: </p>
+            <p class="mb-2"><a href="https://goo.gl/maps/3yNKWD2SFm7wboXC7"><i class="fa fa-map-marker-alt me-3"></i>The Motor Works, New Airport Rd, next to Royal Enfield, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014, India</a></p>
             <p class="mb-2"><a href="tel:+91-8806730003"><i class="fa fa-phone-alt me-3"></i>+91-8806730003</a></p>
             <p class="mb-2"><a href="mailto:themotorworkspune@gmail.com"><i class="fa fa-envelope me-3"></i>themotorworkspune@gmail.com</a></p>
             <div class="d-flex pt-2">
@@ -23,7 +27,7 @@ document.getElementById("footer-motorworks").innerHTML =
     <div class="copyright">
         <div class="row">
             <div class="col-md-12 text-center mb-3 mb-md-0">
-                All Right Reserved &copy; Motor Works ${new Date().getFullYear()}
+                All Right Reserved &copy; The Motor Works ${new Date().getFullYear()}
             </div>            
         </div>
     </div>
